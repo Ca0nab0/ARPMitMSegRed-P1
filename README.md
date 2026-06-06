@@ -79,7 +79,8 @@ Imágenes usadas:
 - ARP falsos (is-at) capturados en Wireshark
 
 ![Wireshark ARP falso](
-<img width="930" height="171" alt="arp_wireshark" src="https://github.com/user-attachments/assets/de654639-d218-45e4-a184-82d311d1cd9d" />
+<img width="930" height="171" alt="arp_wireshark" src="https://github.com/user-attachments/assets/691cd061-3b07-4ab1-87b2-1402c2bd1282" />
+
 )
 
 # Documentación de contra-medidas.
