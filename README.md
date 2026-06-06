@@ -68,11 +68,14 @@ Imágenes usadas:
 
 - Tráfico interceptado en la terminal del atacante
 
-![Trafico interceptado](<img width="715" height="288" alt="arp_trafico" src="https://github.com/user-attachments/assets/fdcc7bea-7311-4f0f-9f28-93b74bb33cc7" />)
+![Trafico interceptado] 
+
+(<img width="715" height="288" alt="arp_trafico" src="https://github.com/user-attachments/assets/ed6e9ff1-293f-4854-8984-5bfa5564ca50" />)
 
 - ARP falsos (is-at) capturados en Wireshark
 
-![Wireshark ARP falso](<img width="930" height="171" alt="arp_wireshark" src="https://github.com/user-attachments/assets/de654639-d218-45e4-a184-82d311d1cd9d" />)
+![Wireshark ARP falso](
+<img width="930" height="171" alt="arp_wireshark" src="https://github.com/user-attachments/assets/de654639-d218-45e4-a184-82d311d1cd9d" />)
 
 # Documentación de contra-medidas.
 La mitigación principal es Dynamic ARP Inspection (DAI), que valida los paquetes ARP contra la base de datos de DHCP Snooping y descarta los falsos. Requiere DHCP Snooping activo.
