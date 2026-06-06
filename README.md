@@ -56,21 +56,23 @@ Imágenes usadas:
 - `c3725-adventerprisek9-mz.124-15.T14` (router R1)
 
 # Capturas de pantalla.
-- Topología (nombre y matrícula)
+- Topología (Emmanuel Baez 20220375)
 
-![Topologia](capturas/arp_topologia.png)
+![Topologia](<img width="426" height="278" alt="arp_topologia" src="https://github.com/user-attachments/assets/439b58cc-33ae-4d38-aea3-bec80aed436c" />
+)
 
 - Ejecución del ataque (forwarding activado y MACs resueltas)
 
-![Ejecucion](capturas/arp_ejecucion.png)
+![Ejecucion](<img width="661" height="237" alt="arp_ejecucion" src="https://github.com/user-attachments/assets/858b7956-250b-48eb-8213-53bb6e5cee5b" />
+)
 
 - Tráfico interceptado en la terminal del atacante
 
-![Trafico interceptado](capturas/arp_trafico.png)
+![Trafico interceptado](<img width="715" height="288" alt="arp_trafico" src="https://github.com/user-attachments/assets/fdcc7bea-7311-4f0f-9f28-93b74bb33cc7" />)
 
 - ARP falsos (is-at) capturados en Wireshark
 
-![Wireshark ARP falso](capturas/arp_wireshark.png)
+![Wireshark ARP falso](<img width="930" height="171" alt="arp_wireshark" src="https://github.com/user-attachments/assets/de654639-d218-45e4-a184-82d311d1cd9d" />)
 
 # Documentación de contra-medidas.
 La mitigación principal es Dynamic ARP Inspection (DAI), que valida los paquetes ARP contra la base de datos de DHCP Snooping y descarta los falsos. Requiere DHCP Snooping activo.
